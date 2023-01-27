@@ -1,11 +1,11 @@
 default: GitTest
 
 GitTest.o: GitTest.c
-     gcc -c GitTest.c -o GitTest.o
+	gcc -c GitTest.c -o GitTest.o
   
 GitTest: GitTest.o
-     gcc GitTest.o -o GitTest
+	gcc GitTest.o -o GitTest
   
 clean:
-  -rm -f GitTest.o
-  -rm -f GitTest
+	-rm -f GitTest.o
+	-rm -f GitTest

@@ -1,6 +1,6 @@
 // Git-Test
 
-#include<stdio.>
+#include<stdio.h>
 
 int main() {
   
